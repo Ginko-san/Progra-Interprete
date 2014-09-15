@@ -1,0 +1,15 @@
+funcion sabe(num){
+@x = 1
+@si ( num > 0 ){
+@@x = calcuFactorial(num-1)
+@@x = x * num
+@hacer:
+@@x = 1
+@devuelve x
+}
+funcion main(){
+@numero = ent(input("Digite el numero a Factorizar: "))
+@print(calcuFactorial(numero))
+}
+main()
+END
