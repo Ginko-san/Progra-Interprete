@@ -5,11 +5,11 @@ __author__ = 'Salchi Man'
 # Work's Hours: 6.24 pm 9.pm
 
 var_type = [["ent", "int"], ["flot", "float"], ["cad", "str"], ["char", "chr"], ["boolen", "bool"]]
-conditional = [["@" ,"   "], ["{", ":"], ["}", "\n" ], ["sino", "elif"], ["si", "if"], ["hacer", "else"], ["END", ""]]
+conditional = [["@", "   "], ["{", ":"], ["}", "\n"], ["sino", "elif"], ["si", "if"], ["hacer", "else"], ["END", ""]]
 loop = [["mientras", "while"], ["para", "for"], ["en", "in"]]
 function = [["desde", "from"], ["importe", "import"], ["funcion", "def"], ["devuelve", "return"]]
 
-#Codigo encargado de leer las lineas de entrada del Usuario en SGL.
+# Codigo encargado de leer las lineas de entrada del Usuario en SGL.
 def read_lines(cod_list):
     while True:
         line = input()
@@ -18,6 +18,7 @@ def read_lines(cod_list):
         cod_list.append(line)
 
 
+#
 def loop_lines(cod_list, list_x):
     trad_list = []
     for x in cod_list:

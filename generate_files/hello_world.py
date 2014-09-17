@@ -1,7 +1,7 @@
 def sabe(num):
 
    x = 1
-   
+
    if ( num > 0 ):
 
       x = calcuFactorial(num-1)
